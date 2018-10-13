@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Meower - Twitter for Cats</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Meower - Twitter for Cats</h1>
+    </header>
+    <main>
+        <div class="db-reset">
+            <button class="button-primary" id="db-reset-btn" name="db-reset-btn">Reset DB</button>
+        </div>
+        <form class="mew-form" id="mew-form">
+            <label for="name">Name</label>
+            <input class="u-full-width" type="text" id="name" name="name">
+            <label for="content">Mew</label>
+            <textarea class="u-full-width" name="content" id="content"></textarea>
+            <button class="button-primary" id="mew-submit-btn" name="mew-submit-btn">Mew</button>
+        </form>
+        <div class="loading">
+            <img src="loading.gif" alt="Page Loading...">
+        </div>
+        <div class="mews"></div>
+    </main>
+    <script src="client.js"></script>
+</body>
+
+</html>

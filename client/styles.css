@@ -1,0 +1,27 @@
+.title {
+    text-align: center;
+}
+
+.mew-form,
+.loading {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.db-reset {
+    width: 100%;
+}
+
+.db-reset,
+.loading {
+    text-align: center;
+}
+
+#content {
+    resize: none;
+}
+
+.mews {
+    width: 80%;
+    margin: 0 auto;
+}
